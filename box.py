@@ -45,10 +45,10 @@ while True:
 			client = connectMPD()
 			if plist=='pause':
 				client.pause()
-				if plist=='next':
-				client.next()
-				if plist=='previous':
-				client.previous()
+					if plist=='next':
+						client.next()
+							if plist=='previous':
+								client.previous()
 			else:
 				play(client, plist)
 			client.close()
