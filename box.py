@@ -49,6 +49,8 @@ while True:
 				client.next()
 			elif plist=='previous':
 				client.previous()
+			elif plist=='shuffle':
+				client.shuffle()
 			else:
 				play(client, plist)
 			client.close()
